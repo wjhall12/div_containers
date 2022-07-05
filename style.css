@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.top-container {
+  background-color: #DAEAF1;
+  width: 200px;
+  height: 200px;
+  /* add 20 px of padding, hit save and refresh in the browser and inspect the code to see the box will expand from 200px to 240 px because 20px of padding was added. (40px top and bottom and 40px left and right) */
+  padding: 20px;
+  /* add 10 px of solid border to the container, in the browser and inspect the code to see the box will expand from 240px with padding to 260px because 10px of border was added to the 20px of padding. (20px border added to top and bottom and 20px left and right) */
+  border: solid 10px;
+  /* now add 10px of margin to see how the box now has some space between the top and middle container. It doesn't change the size of the box but it does affect where the top-container now is displayed on the screen. (margin is outside of the container, padding and border affects the container) */
+  margin: 10px;
+  /* have students go to https://codepen.io/psande/pen/nKOJyX to look at the css box model demo */
+}
+
+.middle-container {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
